@@ -13,11 +13,15 @@ h1 {
   text-align: center;
 }
 
-section { 
+section {
   border: 1px solid black;
   background-color: gray;
   position: relative;
   width: 100%;
+ }
+
+ .col-lg {
+  padding: 15px;
  }
 
 .subtitle {
@@ -44,7 +48,7 @@ section {
 
 
 p {
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 15px;
 }
 
@@ -52,19 +56,19 @@ p {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-lg {
-    float: left; 
+    float: left;
     width: 50%;
    }
 
    .col-md {
-    width: 100px;
+    width: 100%;
    }
 
 }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .col-lg { 
+  .col-lg {
     float: left;
     width: 33.333333%;
    }
